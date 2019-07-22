@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lohith Desu - Digital Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css"> 
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Lohith Desu</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link link-scroll">education</a></li>
+              <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Expertise</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">Projects</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link link-scroll">Experience</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+              <li class="nav-item"><a href="Resume.pdf" target="_blank" class="nav-link link-scroll">Resume</a></li>
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll"><i class="fa fa-refresh fa-spin" style="font-size:22px"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="130"></div>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Lohith Desu</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">Computer Science Undergraduate at NIIT University. Specialised in Data Science.</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <p>Computer Science student with a constant motivation to learn new things and seeking a challenging career in a progressive organization to enhance my knowledge, technical skills and to gain practical experience in the domain of data science.</p><br><br>
+            <p>Got my hands on computer for the first time on 14th July 2016. Ever since my journey with programming has been started. Initially I started out with C but never restricted myself to it. Algorithms and machine learning brought the coder out of me which became building blocks for my problem solving skills. Excluding my academia I have been involved in different projects. I like to mess around with stuff such as python and others.</p>
+            
+          </div>
+
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto "><img src="img/lohith2.jpg" alt="This is me - Data Scientist" class="image rounded-circle " width="320" height="300"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <section id="education" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Education</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-graduation-cap"></i></div>
+            <h3 class="heading mb-3 text-400">Bachelor of Technology</h3>
+            <p class="text-left description"><center>NIIT UNIVERSITY<br>Batch 2016-2020<br>Neemrana, Rajasthan<br>Current CGPA: 8.19</center></p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-university"></i></div>
+            <h3 class="heading mb-3 text-400">Secondary Education</h3>
+            <p class="text-left description"><center>Narayana Junior College (PCM)<br>Batch 2014-2016<br>Vijayawada, Andhra Pradesh<br>Percentage: 97.2%</center></p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-building"></i></div>
+            <h3 class="heading mb-3 text-400">Higher Education</h3>
+            <p class="text-left description"><center>Ravindra Bharathi Public School<br>Batch 2013-2014<br>Vijayawada, Andhra Pradesh<br>CGPA: 9.0</center></p>
+          </div>
+        </div>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Would you like to know more or just discuss something?</p>
+          <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials-->
+    <section id="testimonials" class="testimonials-section bg-gray">
+      <div class="container">
+        <header class="text-center mb-2">
+          <h2 data-animate="fadeInUp" class="title">Expertise</h2>
+          <p data-animate="fadeInUp" class="lead">Here are some of my skills</p>
+        </header>
+        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <img src="img/datascience.png" width="130" height="110" class="rounded img-fluid" alt="Cinque Terre">
+                <br><h3 class="h4 reference-title"><center>Data Analysis</h3>
+                <p>Inputs raw data and outputs the analysis by re-organizing and modelling with a keen focus on Business Intelligence.</p>
+              </div>
+              
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+               <img src="img/bigdata.png" width="130" height="110" class="rounded img-fluid" alt="Cinque Terre">
+                <br><h3 class="h4 reference-title"><center>Big Data Applications</h3>
+                <p>Love to explore its limits; Solve data problems with minimal complexity. Always ready to taste new.</p>
+              </div>
+              
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <img src="img/ml.png" width="130" height="110" class="rounded img-fluid" alt="Cinque Terre">
+                <br><h3 class="h4 reference-title"><center>Machine Learning & Deep Learning</h3>
+                <p>ML learn from the data, and make informed decisions based on what it has learned whereas, DL takes decisions on its own.</p>
+              </div>
+              
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <img src="img/web.png" width="130" height="110" class="rounded img-fluid" alt="Cinque Terre">
+                <br><h3 class="h4 reference-title"><center>Coding</h3>
+                <p>C, Python, Data Structures, MySQL, Java, Advance Java, Web Development (HTML, CSS, JS, Bootstrap)</p>
+              </div>
+              
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+               <img src="img/travel.png" width="130" height="110" class="rounded img-fluid" alt="Cinque Terre">
+                <br><h3 class="h4 reference-title"><center>Travel</h3>
+                <p>Interests + Passion = Love;<br>Expeditions round the globe boosts me up</p>
+              </div>
+              
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Statistics-->
+    <section id="statistics" data-dir="up" style="background: url(&quot;img/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
+      <div class="container">
+        <div class="row showcase text-center"> 
+          <div data-animate="fadeInUp" class="col-lg-4 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-cogs"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">11</span><br>Projects</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-bicycle"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">7</span><br>Trips</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-desktop"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">18</span><br>SKills</h5>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="dark-mask"></div>
+    </section>
+    <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">Projects</h2>
+            <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest for you.</p>
+          </div>
+          <ul id="filter" data-animate="fadeInUp">
+            <li class="active"><a href="#" data-filter="all">All</a></li>
+            <li><a href="#" data-filter="webdesign">R&D</a></li>
+            <li><a href="#" data-filter="seo">Capstone</a></li>
+            <li><a href="#" data-filter="marketing">Android</a></li>
+            <li><a href="#" data-filter="other">Other</a></li>
+          </ul>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/r&d.png" alt="" class="img-fluid" width="400" height="300">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">AI and ML based Analysis of Environmental Factors</h3>
+                            
+                          </div>
+                        </div></a>
+                      <div data-images="img/r&d1.jpg" class="sr-only reference-description">
+                        <P><CENTER>07/01/2019 to 5/04/2019</P>
+                        <p>Developed a model for analysis of interrelationships among snow cover, vegetation, temperature and time series modeling of snow cover using LSTM and ANN methods and acquired knowledge regarding machine learning techniques.</p>
+                        <p class="buttons text-center"><a href="https://github.com/thisislohith6/AI-ML-Based-Analysis-of-Environmental-Factors" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i> VIEW</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/Capstone.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Sentimental Analysis to predict election results</h3>
+                            
+                          </div>
+                        </div></a>
+                      <div data-images="img/sa1.jpg" class="sr-only reference-description">
+                        <P><CENTER>07/01/2019 to 28/03/2019</P>
+                        <p>Developed an algorithm on python that parses the election tweets fetched from Twitter and made sentiment analysis to predict election results and learned to make sentiment analysis using natural language processing. </p>
+                        <p class="buttons text-center"><a href="https://github.com/thisislohith6/Twitter-Sentiment-analysis" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>VIEW</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/food.png" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Khana an Andriod based application </h3>
+                            
+                          </div>
+                        </div></a>
+                      <div data-images="img/food1.png" class="sr-only reference-description">
+                        <P><CENTER>12/02/2018 to 28/04/2018</P>
+                        <p> Built a food app for local restaurant used for ordering and stay updated about the status of the order and learned how to construct an android application.</p>
+                        <p class="buttons text-center"><a href="https://github.com/thisislohith6/Khana---Food-delivery-app" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>VIEW</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  
+              
+                  <div data-category="other" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/catering.png" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Catero a website for Online Catering Management</h3>
+                           
+                          </div>
+                        </div></a>
+                      <div data-images="img/catering1.png" class="sr-only reference-description">
+                        <P><CENTER>25/08/2018 to 22/11/2018</P>
+                        <p>Created an online interface for catering management using Java Servlets and JSP that provides online ordering of food for events and gained knowledge of advance java to make a website.</p>
+                        <p class="buttons text-center"><a href="https://github.com/Software-Engineering-2018/Catero" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>VIEW</a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div data-category="other" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/diary.png" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">MyDairy - An Online Digital dairy</h3>
+                           
+                          </div>
+                        </div></a>
+                      <div data-images="img/diary1.jpg" class="sr-only reference-description">
+                        <P><CENTER>16/02/2019 to 27/03/2019</P>
+                        <p>Developed a digital diary application to makes ease the work of users by this computerized software. As eminent by its name it is an digital personal dairy which is a multi-functional and can be used to save anything ranging from memories, your personal notes, contacts and events, the diary opens home page and after getting started it redirects to login page where user is prompted to give his name and password. He can write and update his daily life moments. Thus the user can manage his contacts and daily working schedules through this application. This application avoids user to make manual contact diaries to store the contact address. This can also help many professional persons for instance a doctor can use it to keep record of his daily appointments, travelers can keep record of his moments in his journey. Families can keep record of daily spendings etc.</p>
+                        <p class="buttons text-center"><a href="https://github.com/thisislohith6/MyDairy" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i>VIEW</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customers-->
+    <section id="experience" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Experience</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-12">
+            <img src="img/Innominds.jpg" width="280" height="110" class="rounded img-fluid" alt="Cinque Terre">
+            <h3 class="heading mb-3 text-400">Internship</h3>
+            <p class="text-left description"><center>Worked as an intern in <b>Innominds Software Pvt Ltd., Hyderabad</b> for 45 days and got hands-on experience with different problems in the field of Data Science and developed a model to perform Sentiment Analysis and built a conversation Chatbot</center></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact me</h2>
+        </header>
+
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-6"><br><p><center><iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824.6976627093786!2d80.60348041463648!3d16.541354231006228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35efbef57e97fd%3A0x9388dad0c5ed41b9!2sKabela+Road%2C+RR+Nagar%2C+Vijayawada%2C+Andhra+Pradesh+520012!5e0!3m2!1sen!2sin!4v1548569529965" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></center></p> </div>
+          <div class="col-md-6 col-sm-6 col-6">
+            <div class="col-lg-8 mx-auto">
+              <form id="contact-form" method="post" action="">
+                <div class="messages"></div>
+                <div class="controls">
+                  <br><br><br><br><br>
+                  <div class="row">
+
+                    <div class="col-12">
+                      <center><i class="fa fa-mobile" style="font-size:39px"></i>&ensp; &nbsp;+91 9660960454 | 9502019057</font> 
+                    </div><br>
+                    <div class="col-md-12">
+                      <center><i class="fa fa-envelope-o" style="font-size:36px"></i>&ensp; Desu.Lohith@st.niituniversity.in                  
+                    </div><br>
+                    <div class="col-md-12">
+                      <center><i class="fa fa-home" style="font-size:36px"></i>&ensp;RR Nagar, Vijayawada, AP, 520012                  
+                    </div>
+                  
+                  
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map-->
+    
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social"><a href="https://www.facebook.com/lohith.desu" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/lohith_desu6/?hl=en" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="https://github.com/thisislohith6" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-github"></i></a><a href="https://www.linkedin.com/in/desu-lohith-2469b2142/" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-linkedin"></i></a></p>
+          </div>
+          <!-- /.6-->
+          
+          <div class="col-12 mt-4">
+            <p class="template-bootstrapious">© Designed by <font font color="red"><b> Lohith Desu </font> - Student at NIIT University</p>
+            <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
